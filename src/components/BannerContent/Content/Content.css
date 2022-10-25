@@ -1,0 +1,15 @@
+.content {
+  text-align: center;
+  margin: 2rem;
+  gap: 2rem;
+  z-index: 1000;
+}
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.icon {
+  margin-left: 1rem;
+}

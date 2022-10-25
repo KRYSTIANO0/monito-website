@@ -1,0 +1,91 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  list-style: none;
+  outline: none;
+  transition: all linear 0.3s;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Questrial", sans-serif;
+}
+/* colors */
+:root {
+  --darkBlue: #003459;
+  --monYellow: #f7dba7;
+  --pinkRed: #ff564f;
+  --greenLight: #34c759;
+  --orangeShine: #ff912c;
+  --blueSea: #00a7e7;
+}
+/* text styling */
+.nav-text {
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 700;
+  color: #003459;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 2rem;
+}
+.header {
+  text-transform: capitalize;
+  color: #002a48;
+}
+.header-50 {
+  font-weight: bold;
+  font-size: 6.7rem;
+}
+.header-40 {
+  font-weight: 700;
+  font-size: 5rem;
+}
+.grap-text {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #242b33;
+  text-align: justify;
+}
+/* sections */
+#herro-banner {
+  position: relative;
+  margin: 1.4rem;
+  padding: 2rem;
+  padding-bottom: 0;
+  background: linear-gradient(
+    102.87deg,
+    #fceed5 6.43%,
+    #fceed5 78.33%,
+    #ffe7ba 104.24%
+  );
+  border-radius: 33.0458px;
+  overflow: hidden;
+}
+
+/* tablet */
+@media screen and (max-width: 1400px) {
+  .header-50 {
+    font-size: 4.8rem;
+  }
+  .header-40 {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header-50 {
+    font-size: 3rem;
+  }
+  .header-40 {
+    font-size: 2.2rem;
+  }
+}

@@ -1,0 +1,16 @@
+#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0rem 6rem;
+}
+
+.logo-monito {
+  width: 15rem;
+  z-index: 1000 !important;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

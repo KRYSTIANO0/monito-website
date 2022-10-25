@@ -1,0 +1,31 @@
+.main-button {
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem;
+  border-radius: 10rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.dark-button {
+  background: #003459;
+  color: #fdfdfd;
+}
+
+.blue-button {
+  background: #0078cd;
+  color: #fdfdfd;
+}
+.blocked-button {
+  background: #ccd1d2;
+  color: #667479;
+  cursor: not-allowed !important;
+}
+.transparent-button {
+  border: 1.5px solid #003459;
+  border-radius: 57px;
+  color: #003459;
+}

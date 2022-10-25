@@ -1,0 +1,12 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 9.91373px 16.5229px 9.91373px 13.2183px;
+  background: #fdfdfd;
+  border-radius: 38.0026px;
+}
+
+.icon {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}

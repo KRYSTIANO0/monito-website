@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//components
+import Header from "./components/Header/Header";
+import BannerContent from "./components/BannerContent/BannerContent";
+import BannerDecoration from "./components/BannerDecoration/BannerDecoration";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <section id="herro-banner">
+        <BannerDecoration />
+        <Header />
+        <BannerContent />
+      </section>
+    </main>
   );
-}
+};
 
 export default App;
